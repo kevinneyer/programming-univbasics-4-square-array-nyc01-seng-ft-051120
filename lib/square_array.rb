@@ -1,9 +1,7 @@
-def square_array(numbers) |f| 
+def square_array(numbers)
   new_array = []
-  i = 0 
-  while i < numbers.length do 
-    new_array.push(numbers[i] ** 2)
-    i ++
-  end
-  new_array 
-end
+  numbers.length.times do |f|
+    new_array.push(numbers[f] ** 2)
+  end 
+  new_array
+end 
