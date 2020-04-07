@@ -1,4 +1,4 @@
-def square_array(numbers)
+def square_array(numbers) |f| 
   new_array = []
   i = 0 
   while i < numbers.length do 
